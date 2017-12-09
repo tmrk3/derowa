@@ -5,7 +5,7 @@ ini_set("display_errors", 1);
 
 // Path of application directory
 $base_dir = __DIR__."/index.d";
-$html_dir = __DIR__."/.";
+$html_dir = __DIR__."/index.d/templates";
 
 // Load autoloader
 require_once $base_dir."/extra/php/ClassLoader.php";
